@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: #333;
+}
+
+header {
+}
+
+h1 {
+  margin: 3rem 2rem;
+}
+
+header p {
+  margin: 0.2rem 2rem;
+}
+
+.container {
+  background-color: rgb(39, 183, 106);
+  padding: 2rem;
+  box-shadow: 1rem 1rem 1rem white;
+  border-radius: 1rem;
+  max-width: 60rem;
+  margin: 5rem auto;
+}
+
+form {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+input,
+select,
+textarea {
+  border-radius: 0.2rem;
+  border: 1px solid #777;
+  padding: 1rem;
+  display: block;
+  width: 100%;
+}
+
+form input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin-left: 10%;
+  margin-bottom: 2rem;
+}
+
+#margin-left {
+  margin-left: 0;
+}
+
+#submit {
+  background-color: #4285f4;
+  color: #fff;
+  border: 1px solid #777;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+#submit:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+}
+
+.reset {
+  font-size: 1.54rem;
+  margin-top: 5rem;
+}
+
+#reset {
+  background-color: #ff0000;
+  color: #fff;
+  border: 1px solid #777;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#reset:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #000;
+}
+
+footer a {
+  display: block;
+  text-align: right;
+  margin-right: 40rem;
+  text-decoration: none;
+  color: #aaa;
+  margin-bottom: 3rem;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
