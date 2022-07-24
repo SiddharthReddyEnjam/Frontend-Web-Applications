@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h2>My To-do list</h2>
+        <p>Double-click an item to mark it complete.</p>
+
+        <form name="todo-adder">
+          <input type="text" name="task" placeholder="Add your tasks" id="todo-entry-box"/>
+        </form>
+
+        <a id="add-button" href="#">Add</a>
+
+        <ol id="todo-list">
+        </ol>
+
+        <section class="buttons">
+          <a id="clear-button" href="#">Clear Completed</a>
+          <a id="empty-button" href="#">Empty List</a>
+          <a id="save-button" href="#">Save List</a>
+        </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <p>Saving the list will be implemented later</p>
+      <a class="my-name" target="_blank" href="https://github.com/Siddharthnani">Siddharth</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
